@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="/images/icons8-calculator-32.png">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="calc">
+        <div class="output">
+          <input type="text" id="screen" />
+        </div>
+        <div class="buttons">
+          <div class="row">
+            <button class="btn-clear" onclick="clearScreen()">AC</button>
+            <button class="btn" onclick="backSpace()">Del</button>
+            <button class="btn" onclick="buttonClick('%')">%</button>
+            <button class="btn" onclick="buttonClick('/')">/</button>
+          </div>
+          <div class="row">
+            <button class="btn-num" onclick="buttonClick(7)">7</button>
+            <button class="btn-num" onclick="buttonClick(8)">8</button>
+            <button class="btn-num" onclick="buttonClick(9)">9</button>
+            <button class="btn" onclick="buttonClick('*')">x</button>
+          </div>
+          <div class="row">
+            <button class="btn-num" onclick="buttonClick(4)">4</button>
+            <button class="btn-num" onclick="buttonClick(5)">5</button>
+            <button class="btn-num" onclick="buttonClick(6)">6</button>
+            <button class="btn" onclick="buttonClick('-')">-</button>
+          </div>
+          <div class="row">
+            <button class="btn-num" onclick="buttonClick('1')">1</button>
+            <button class="btn-num" onclick="buttonClick('2')">2</button>
+            <button class="btn-num" onclick="buttonClick('3')">3</button>
+            <button class="btn" onclick="buttonClick('+')">+</button>
+          </div>
+          <div class="row">
+            <button class="btn-num" onclick="buttonClick('.')">.</button>
+            <button class="btn-num" onclick="buttonClick(0)">0</button>
+            <button class="btn-equal" onclick="equalClick()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
