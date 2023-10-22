@@ -18,6 +18,6 @@ This calculator is hosted on GitHub Pages. You can access it [here](https://abie
 
 ## Contact
 
-- Your Name
+- Abhishek p p
 - GitHub: [Your GitHub Profile](https://github.com/abiek12)
 - Email: abhishekkanichery@gmail.com
