@@ -1,7 +1,9 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
   background: rgb(187, 187, 187);
   background: -moz-linear-gradient(
     340deg,
@@ -23,7 +25,8 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bbbbbb",endColorstr="#bbbbbb",GradientType=1);
   font-family: sans-serif;
-  height: 38.6em;
+  min-height: 38.6em;
+  background-size: cover;
 }
 .calc {
   width: 360px;
@@ -110,7 +113,6 @@ body {
   transform: scale(0.95);
   background: rgb(9, 220, 115);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-
 }
 .btn-clear {
   width: 60px;
@@ -130,4 +132,30 @@ body {
   transform: scale(0.95);
   background: rgb(226, 0, 0);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media screen and (max-width: 668px) {
+  body{
+    background-attachment: fixed;
+  }
+  .calc {
+    width: 330px;
+    height: 560px;
+  }
+  #screen {
+    margin-bottom: 40px;
+  }
+  .row {
+    width: 330px;
+  }
+  .btn,
+  .btn-num,
+  .btn-clear {
+    width: 55px;
+    height: 55px;
+  }
+  .btn-equal {
+    width: 125px;
+    height: 55px;
+  }
 }

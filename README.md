@@ -4,7 +4,7 @@ A basic JavaScript calculator that allows users to perform simple arithmetic ope
 
 ## Demo
 
-Try it out here: [Calculator Demo](https://abiek12.github.io/Simple-Javascript-Calculator)
+Try it out here: [Demo](https://abiek12.github.io/Simple-Javascript-Calculator)
 
 ## Technologies Used
 
@@ -12,12 +12,8 @@ Try it out here: [Calculator Demo](https://abiek12.github.io/Simple-Javascript-C
 - CSS
 - JavaScript
 
-## Hosted on GitHub Pages
-
-This calculator is hosted on GitHub Pages. You can access it [here](https://abiek12.github.io/Simple-Javascript-Calculator).
-
 ## Contact
 
 - Abhishek p p
-- GitHub: [Your GitHub Profile](https://github.com/abiek12)
+- GitHub: [abiek12](https://github.com/abiek12)
 - Email: abhishekkanichery@gmail.com
