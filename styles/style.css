@@ -71,9 +71,13 @@ body {
   transition: all 0.5s ease;
   -o-transition: all ease 0.5s;
 }
+.btn:hover{
+  background: rgb(88, 88, 88);
+  transform: scale(1.03);
+}
 .btn:active {
   background: rgb(90, 90, 90);
-  transform: scale(0.95);
+  transform: scale(0.94);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 .btn-num {
@@ -90,8 +94,12 @@ body {
   transition: all 0.5s ease;
   -o-transition: all ease 0.5s;
 }
+.btn-num:hover{
+  background: rgb(160, 160, 160);
+  transform: scale(1.03);
+}
 .btn-num:active {
-  transform: scale(0.95);
+  transform: scale(0.94);
   background: rgb(164, 164, 164);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
@@ -109,9 +117,13 @@ body {
   transition: all 0.5s ease;
   -o-transition: all ease 0.5s;
 }
+.btn-equal:hover{
+  background: rgb(0, 182, 91);
+  transform: scale(1.03);
+}
 .btn-equal:active {
-  transform: scale(0.95);
-  background: rgb(9, 220, 115);
+  transform: scale(0.94);
+  background: rgb(0, 191, 95);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 .btn-clear {
@@ -128,9 +140,14 @@ body {
   transition: all 0.5s ease;
   -o-transition: all ease 0.5s;
 }
+
+.btn-clear:hover{
+  background: rgb(235, 0, 0);
+  transform: scale(1.03);
+}
 .btn-clear:active {
-  transform: scale(0.95);
-  background: rgb(226, 0, 0);
+  transform: scale(0.94);
+  background: rgb(208, 0, 0);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
